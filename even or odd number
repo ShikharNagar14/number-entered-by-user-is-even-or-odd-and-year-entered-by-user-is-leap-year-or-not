@@ -1,0 +1,14 @@
+# a number entered by user is even or odd
+num=int(input("enter a number:\n"))
+if (num%2==0):
+    print("the number entered by user is even")
+else:
+    print("the number entered by user is odd")
+
+# a year entered by a user is leap or not
+year=int(input("enter a year:\n"))
+if (year%4==0) and ((year%100!=0) or ( year%400==0)):
+    print("the year entered by user is leap year")
+else:
+    print("the year entered by user is not a leap year")
+
